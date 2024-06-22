@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../無限學院/05-上課檔案/03-單頁式網頁切版概念與基礎入門/05-RWD/00-firstpage(RWD)_example(completed)"
+		},
+		{
+			"path": "../無限學院/05-上課檔案/03-單頁式網頁切版概念與基礎入門/02-First_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tim-first-project"
+	}
+}
