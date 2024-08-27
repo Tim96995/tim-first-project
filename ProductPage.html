@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zw-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奇幻果園</title>
+    <link rel="stylesheet" href="./css/01-normalize/01-normalize.css">
+    <link rel="stylesheet" href="./css/02-vendor/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Start Header -->
+        <header class="header">
+            <div class="navbar">
+                <div class="container">
+                    <ul class="nav">
+                        <div class="nav-item">
+                            <input type="search" class="search">
+                        </div>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="MemberPage.html" class="nav-link">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start main -->
+        <main>
+            <!-- Start logobar -->
+            <div class="container">
+                <div class="logobar">
+                        <a href="LandingPage.html" class="logo">
+                            <i class="fa-brands fa-apple"></i>
+                        </a>
+                </div>
+            </div>
+            <!-- End logobar -->
+
+            <!-- Start menubar -->
+            <div class="container">
+                <div class="menubar">
+                    <div class="flex-row flex-row-center">
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>蔬菜多多</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>水果多多</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>今天來點</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>季節特產</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>特價專區</u></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End menubar -->
+
+
+            
+            <div class="container container-dashed">
+                <!-- Start categorybar -->
+                <div class="categorybar">
+                    <div class="flex-row flex-row-center ml-190">
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>生鮮蔬果</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>奶蛋冷藏</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>調味專區</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>休閒食品</u></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-row flex-row-center ml-190 mr-190">
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>健康養生</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>生活日用</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>送禮專區</u></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-row flex-row-center ml-190 mr-190">
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>精選農產</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>有機農產</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="category-item ">
+                                <div class="category-link"><u>飛機改良</u></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End categorybar -->
+
+                <!-- Start pathbar -->
+                <div class="pathbar">
+                    <div class="path-group ">
+                        <a href="LandingPage.html">
+                            <i class="fa-solid fa-house"> 首頁</i>
+                        </a>
+                        <a href="ProductPage.html">
+                            <i class="fa-solid fa-greater-than"> 生鮮蔬果</i> 
+                        </a>
+                    </div>
+                    <select name="filter" class="filter">
+                        <option value="hotProduct">熱門商品</option>
+                        <option value="priceHight">價格由高到低</option>
+                        <option value="priceLow">價格由低到高</option>
+                        <option value="timeNew">時間新到舊</option>
+                        <option value="timeOld">時間舊到新</option>
+                    </select>
+                </div>
+                <!-- End pathbar -->
+
+                <!-- Start product -->
+                <div class="product">   
+                    <div class="product-bar">
+                        <div class="flex-row flex-row-between">
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product001.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product002.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product003.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product004.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price">100元</div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">-</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--dark">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-bar">
+                        <div class="flex-row flex-row-between">
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product001.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product002.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product003.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product004.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price">100元</div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">-</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--dark">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-bar">
+                        <div class="flex-row flex-row-between">
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product001.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product002.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product003.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price"><del>100元</del></div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">96元</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--green">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="product-card">
+                                    <div class="image-group" >
+                                        <div class="image"style="background-image: url(./image/products/product004.jpg);"></div>
+                                        <a href="#!" class="shopping-add">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                    <div class="preview">
+                                        <div class="productName-group">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <div class="productName-group__name">產品名稱</div>
+                                        </div>
+                                        <div class="price-group">
+                                            <div class="price-old flex-col-1">
+                                                <i class="fa-solid fa-coins"></i>
+                                                <div class="price-group__price">100元</div>
+                                            </div>
+                                            <div class="price-new flex-col-1">
+                                                <i class="fa-solid fa-yen-sign color-red"></i>
+                                                <div class="price-group__price">-</div>
+                                            </div>
+                                        </div>
+                                        <div class="category-group flex-row-around">
+                                            <div class="category category--orange">精選</div>
+                                            <div class="category category--dark">有機</div>
+                                            <div class="category category--brown">非基</div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                </div>
+                <!-- End product -->
+                 
+                <!-- Start numberbar -->
+                <div class="numberbar flex-row flex-row-center">
+                    <a href="#!" class="p-8">
+                        <i class="fa-solid fa-less-than"></i>
+                    </a>
+                    <a href="#!" class="p-8">1</a>
+                    <a href="#!" class="p-8">2</a>
+                    <a href="#!" class="p-8">3</a>
+                    <a href="#!" class="p-8">4</a>
+                    <a href="#!" class="p-8">
+                        <i class="fa-solid fa-greater-than"></i>
+                    </a>
+                </div>
+                <!-- End numberPage -->
+            </div>
+        </main>
+        <!-- End main -->
+        
+        <!-- Start footer -->
+        <footer class="footer bg-grey--light">
+            <div class="footer-title">聯絡我們</div>
+            <div class="icon-group">
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-solid fa-envelope"></i>    
+                </a>               
+            </div>
+            <div class="footer-broder"></div>
+            <div class="footer-Copyright">Copyright © 2024 Tim</div>
+        </footer>
+        <!-- End footer -->    
+    </div>
+</body>
+</html>
