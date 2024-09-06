@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/01-normalize/01-normalize.css">
     <link rel="stylesheet" href="./css/02-vendor/fontawesome-free-6.6.0-web/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/MemberPage.css">
+    <link rel="stylesheet" href="./css/FinishPage&NoPage.css">
 </head>
 <body>
     <div class="wrapper">
@@ -25,7 +25,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#!" class="nav-link">
+                            <a href="MemberPage.html" class="nav-link">
                                 <i class="fa-solid fa-user"></i>
                             </a>
                         </li>
@@ -86,64 +86,32 @@
             </div>
             <!-- End menubar -->
 
+
             
             <div class="container container-dashed">
+                <div class="bigIcongroup flex-row-center">
+                    <div class="flex-col color-green--dark">
+                        <i class="fa-regular fa-circle-check icon"></i>
+                    </div>
+                </div>
                 <h2 class="titlebar flex-row-center">
-                    <div class="titlebar__title flex-col color-green--dark">會員登入</div>
+                    <div class="titlebar__title color-green--dark">完成訂單</div>
                 </h2>
-                <div class="input-group flex-row-na-center">  
-                    <i class="fa-solid fa-user icon"></i>
-                    <input type="text" class="input-item flex-col">
-                </div>
-                <div class="input-group flex-row-na-center">
-                    <i class="fa-solid fa-key icon"></i> 
-                    <input type="text" class="input-item flex-col">
-                </div>
-                <div class="btn-group">
-                    <a href="#!" class="btn-xl bg-green--dark color-white flex-row-center">
-                        <p>登入</p>
-                    </a>
-                </div>
-
-                <!-- Start helpbar -->
-                <div class="helpbar flex-row-center">
-                    <div class="flex-col">
-                        <div class="forgetkey">
-                            <a href="#!" class="forgetkey-link">忘記密碼</a>
-                        </div>
-                    </div>
-                    <div class="flex-col">
-                        <div class="register">
-                            <a href="#!" class="register-link color-purple">註冊會員</a>
-                        </div>
-                    </div>
-                </div> 
-                <!-- End helpbar -->
+                <h5 class="subtitlebar flex-row-center">
+                    <div class="subtitle">訂單資訊詳情可至會員專區查詢</div>
+                </h5>
 
                 <!-- Start outsideLogin -->
-                    <div class="outsideLogin">
-                        <h3 class="titlebar flex-row-center">
-                            <div class="titlebar__title flex-col color-grey--dark">第三方登入</div>
-                        </h3>
-                        <div class="btn-group">
-                            <a href="#!" class="btn-lg bg-grey--light color-grey--dark flex-row-center">
-                                <i class="fa-brands fa-apple icon"></i>
-                                <p>Apple</p>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="#!" class="btn-lg bg-red color-white flex-row-center">
-                                <i class="fa-brands fa-google icon"></i>
-                                <p>Google</p>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="#!" class="btn-lg bg-blue color-white flex-row-center">
-                                <i class="fa-brands fa-facebook icon"></i>
-                                <p>Facebook</p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="btn-group">
+                    <a href="MemberPage.html" class="btn-m bg-green--light2 color-white flex-row-center m-12">
+                        <i class="fa-solid fa-user icon"></i>
+                        <p>會員專區</p>
+                    </a>
+                    <a href="ProductPage.html" class="btn-m bg-red color-white flex-row-center m-12">
+                        <i class="fa-solid fa-basket-shopping icon"></i>
+                        <p>繼續購物</p>
+                    </a>
+                </div>
                 <!-- End outsideLogin -->
             </div>
         </main>

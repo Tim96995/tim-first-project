@@ -1,0 +1,28 @@
+.bigIcongroup{
+    font-size: 32px;
+    padding-top: 168px;
+}
+.bigIcongroup .flex-col .icon{
+    font-size: 128px;
+}
+.titlebar{
+    font-size: 32px;
+    padding: 20px 0px;
+    line-height: 36px; 
+}
+.subtitlebar{
+    padding: 10px;
+    font-weight: 600px;
+}
+.subtitlebar .subtitle{
+    font-size: 19px;
+}
+.btn-group{
+    padding: 8px 0px 200px 0px;
+}
+.btn-group .icon {
+    padding-right:12px;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 600;
+}

@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>奇幻果園</title>
     <link rel="stylesheet" href="./css/01-normalize/01-normalize.css">
+    <!-- fontawesome icon插件 -->
     <link rel="stylesheet" href="./css/02-vendor/fontawesome-free-6.6.0-web/css/all.min.css">
+    <!-- slick 幻燈片插件 -->
+    <link rel="stylesheet" type="text/css" href="./vendor/slick-1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/slick-1.8.1/slick-theme.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -44,7 +48,7 @@
             <!-- Start logobar -->
             <div class="container">
                 <div class="logobar">
-                        <a href="LandingPage.html" class="logo">
+                        <a href="HomePage.html" class="logo">
                             <i class="fa-brands fa-apple"></i>
                         </a>
                 </div>
@@ -98,7 +102,7 @@
                             <h2 class="product-titlebar__title color-orange--dark">精選農產</h2>
                         </div>
                         <div class="product-bar">
-                            <div class="flex-row flex-row-between">
+                            <div class="flex-row-between">
                                 <div class="flex-col">
                                     <div class="product-card">
                                         <div class="image-group" >
@@ -497,7 +501,7 @@
                         </div>
                     </div>
                     <div class="btn-group">
-                        <a href="ProductPage.html" class="btn-lg bg-red color-white flex-row flex-row-center">
+                        <a href="ProductPage.html" class="btn-lg bg-red color-white flex-row-center">
                             <p>生鮮蔬果</p>
                         </a>
                     </div>                
@@ -534,7 +538,18 @@
         <!-- End footer -->    
     </div>
 </body>
-<script>
+<!-- jquery 基本檔案 -->
+<script type="text/javascript" src="./vendor/jquery-3.7.1/jquery-3.7.1.js"></script>
+<!-- slick 幻燈片插件 -->
+<script type="text/javascript" src="./vendor/slick-1.8.1/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.your-class').slick({
+        // setting-name: setting-value
+        });
+    }); 
+
+    // firebase的東西
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "firebase/app";
     // TODO: Add SDKs for Firebase products that you want to use
@@ -542,12 +557,12 @@
 
     // Your web app's Firebase configuration
     const firebaseConfig = {
-    apiKey: "AIzaSyCiOijofKW05ktMvb-I57kMnUKmJ3uVxd4",
-    authDomain: "tim-first-project-6d94b.firebaseapp.com",
-    projectId: "tim-first-project-6d94b",
-    storageBucket: "tim-first-project-6d94b.appspot.com",
-    messagingSenderId: "831828822734",
-    appId: "1:831828822734:web:68d6f0ce3c4f54cefa5e9f"
+        apiKey: "AIzaSyCiOijofKW05ktMvb-I57kMnUKmJ3uVxd4",
+        authDomain: "tim-first-project-6d94b.firebaseapp.com",
+        projectId: "tim-first-project-6d94b",
+        storageBucket: "tim-first-project-6d94b.appspot.com",
+        messagingSenderId: "831828822734",
+        appId: "1:831828822734:web:68d6f0ce3c4f54cefa5e9f"
     };
 
     // Initialize Firebase

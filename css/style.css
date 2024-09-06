@@ -40,13 +40,10 @@ ul{
     list-style: none;
 }
 
-a{
+a,input{
+	text-decoration: none;
 	color: rgb(75,93,106);
-    text-decoration: none;
-}
-section{
-	/* width: 0;
-	height: 0; */
+	font-family: 微軟正黑體, Arial;
 }
 
 /* ------ */
@@ -65,19 +62,46 @@ section{
 		display: flex;
 	}
 	.flex-row-around{
+		display: flex;
 		justify-content: space-around;
 	}
 	.flex-row-between{
+		display: flex;
 		justify-content: space-between;
 	}
+	.flex-row-na-center{
+		display: flex;
+		justify-content:center ;
+	}
 	.flex-row-center{
+		display: flex;	
+		align-items: center;
 		justify-content: center;
 	}
 	.flex-row-a-center{
+		display: flex;
 		align-items: center;
+	}
+	.flex-row-a-c-center{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 	.flex-col-1{
 		flex:1;
+	}
+	.flex-col-2{
+		flex: 2;
+	}
+	.flex-col-3{
+		flex: 3;
+	}
+	.flex-col-4{
+		flex: 4;
+	}
+	.flex-col-a{
+		width: 309.89px;
 	}
 	.col{
 		padding: 0 48px;
@@ -98,6 +122,9 @@ section{
 }
 .color-green--light{
 	color:rgb(209,228,225);
+}
+.color-green--light2{
+	color: rgb(29,172,160);
 }
 .color-brown{
 	color:rgb(171,100,100);
@@ -132,6 +159,9 @@ section{
 }
 .bg-green--light{
 	background-color:rgb(209,228,225);
+}
+.bg-green--light2{
+	background: rgb(29,172,160);
 }
 .bg-green--dark{
 	background-color:rgb(28,123,105);
@@ -177,6 +207,27 @@ section{
     width: 180px;
     font-weight: 400;
 	border-radius: 4px;
+}
+.btn-m{
+	font-size: 16px;
+    line-height: 34px;
+    height: 34px;
+    width: 130px;
+    font-weight: 400;
+	border-radius: 4px;
+}
+.btn-sm{
+	font-size: 16px;
+    line-height: 34px;
+    height: 34px;
+    width: 100px;
+    font-weight: 400;
+	border-radius: 4px;
+}
+.btn-group{
+	padding: 40px 0;
+	display: flex;
+	justify-content: center	;
 }
 
 /* navbar */
@@ -325,11 +376,6 @@ section{
 	color: rgb(111, 123, 135);
 	background-color:rgb(167, 173, 179);	
 }
-.btn-group{
-	padding: 40px 0;
-	display: flex;
-	justify-content: center	;
-}
 .footer{
 	display: flex;
 	margin-top: 64px;
@@ -355,9 +401,6 @@ section{
 	line-height: 24px;
 	border: 1px solid rgb(140, 163, 177);
 }
-.categorybar{
-
-}
 .path-group{
 	line-height: 24px;
 	padding: 24px 24px;
@@ -370,8 +413,15 @@ section{
 .numberbar{
 	padding: 24px;
 }
+/* Utility */
 .p-8{
 	padding: 8px;
+}
+.pb-4{
+	padding-bottom: 4px;
+}
+.m-12{
+	margin: 12px;  
 }
 .ml-190{
 	margin-left: 190px;
