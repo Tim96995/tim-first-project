@@ -24,6 +24,11 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 0;
 }
+.input-group .input-item{
+    width: 221px;
+    padding-left:8px;
+    padding-right:0px ;
+}
 .btn-group{
     padding: 8px 0;
 }

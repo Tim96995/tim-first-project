@@ -27,7 +27,7 @@
     padding: 30px 0;
     /* border-bottom: 2px solid rgb(206,216,225); */
 }
-.shoppingProduct-group:nth-last-of-type(1){
+.shoppingProduct-group:nth-child(5){
     border-bottom: 2px solid rgb(206,216,225);
 }
 .shoppingProduct{
@@ -37,7 +37,7 @@
 /* .shoppingProductName{
    padding-left:5px;
 } */
-.input{
+#quantity{
     padding: 2px 6px;
     text-align: center;
     border: 2px solid rgb(206,216,225);   

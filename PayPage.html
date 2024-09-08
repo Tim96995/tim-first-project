@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zw-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奇幻果園</title>
+    <link rel="stylesheet" href="./css/01-normalize/01-normalize.css">
+    <link rel="stylesheet" href="./css/02-vendor/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/PayPage.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Start Header -->
+        <header class="header">
+            <div class="navbar">
+                <div class="container">
+                    <ul class="nav">
+                        <div class="nav-item">
+                            <input type="search" class="search">
+                        </div>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="MemberPage.html" class="nav-link">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start main -->
+        <main>
+            <!-- Start logobar -->
+            <div class="container">
+                <div class="logobar">
+                        <a href="HomePage.html" class="logo">
+                            <i class="fa-brands fa-apple"></i>
+                        </a>
+                </div>
+            </div>
+            <!-- End logobar -->
+
+            <!-- Start menubar -->
+            <div class="container">
+                <div class="menubar">
+                    <div class="flex-row-center">
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>蔬菜多多</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>水果多多</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>今天來點</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>季節特產</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>特價專區</u></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End menubar -->
+
+
+            
+            <div class="container container-dashed">
+                <!-- Start pay -->
+                <div class="pay">
+                    <div class="pay-group">
+                        <div class="pay-titlebar">
+                            <div class="pay-titlebar__title">訂購人資訊*</div>
+                        </div>
+                        <div class="label-group">
+                            <label for="A-name" class="label">
+                                <p class="label__title">姓名</p>
+                                <input id="A-name" type="text" name="A-name" placeholder="王大明" class="label__item">
+                            </label>
+                            <label for="A-phone" class="label">
+                                <p class="label__title">電話</p>
+                                <input id="A-phone" type="text" name="A-phone" placeholder="0900111222" class="label__item">
+                            </label>
+                            <label for="A-Time" class="label">
+                                <p class="label__title">電子郵件</p>
+                                <input id="A-email" type="text" name="A-email" placeholder="12345@gmail.com" class="label__item">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="pay-group">
+                        <div class="pay-titlebar">
+                            <div class="pay-titlebar__title">收件人資訊*</div>
+                        </div>
+                        <div class="label-group">
+                            <label for="B-name" class="label">
+                                <p class="label__title">姓名</p>
+                                <input id="B-name" type="text" name="B-name" placeholder="王大明" class="label__item">
+                            </label>
+                            <label for="B-phone" class="label">
+                                <p class="label__title">電話</p>
+                                <input id="B-phone" type="text" name="B-phone" placeholder="0900111222" class="label__item">
+                            </label>
+                            <label for="B-email" class="label">
+                                <p class="label__title">電子郵件</p>
+                                <input id="B-email" type="text" name="B-email" placeholder="12345@gmail.com" class="label__item">
+                            </label>
+                            <label for="B-addres-locationNumber" class="label">
+                                <p class="label__title">收件地址</p>
+                                <div class="flex-row-width">
+                                    <select id="B-addres-city" name="B-addres-city" class="label__select flex-col-1 ">
+                                        <option value="0">縣市</option>
+                                        <option value="1">台北市</option>
+                                        <option value="2">台中市</option>
+                                        <option value="3">高雄市</option>
+                                        <option value="4">之後接後端</option>
+                                    </select>
+                                    <select id="B-addres-location" name="B-addres-location" class="label__select flex-col-1">
+                                        <option value="0">鄉鎮市區</option>
+                                        <option value="1">文山區</option>
+                                        <option value="2">大安區</option>
+                                        <option value="3">信義區</option>
+                                        <option value="4">之後接後端</option>
+                                    </select>
+                                    <input id="B-addres-locationNumber" type="number" name="B-addres-locationNumber" min="100" max="983" placeholder="郵遞區號前三碼" class="label__ite flex-col-1">
+                                </div>
+                                
+                            </label>
+                            <label for="B-addres-para" class="label">
+                                <p class="label__title"></p>
+                                <input id="B-addres-para" type="text" name="B-addres-para" placeholder="收件人地址詳情：路/弄/巷/號/樓...." class="label__item">
+                            </label>
+                            <label for="Time" class="label">
+                                <p class="label__title">收貨時間</p>
+                                <div class="flex-row-width flex-row-between">
+                                    <label for="Time-1" class="label__checkbox flex-row-center">
+                                        <input id="Time-1" type="checkbox" name="Time-1" placeholder="12345@gmail.com">
+                                        <p class="checkbox__para">0700-1130</p>
+                                    </label>
+                                    <label for="Time-2" class="label__checkbox flex-row-center">
+                                        <input id="Time-2" type="checkbox" name="Time-2" placeholder="12345@gmail.com">
+                                        <p class="checkbox__para">1300-1700</p>
+                                    </label>
+                                    <label for="Time-3" class="label__checkbox flex-row-center">
+                                        <input id="Time-3" type="checkbox" name="Time-3" placeholder="12345@gmail.com">
+                                        <p class="checkbox__para">1830-2000</p>
+                                    </label>
+                                    <label for="Time-4" class="label__checkbox flex-row-center">
+                                        <input id="Time-4" type="checkbox" name="Time-4" placeholder="12345@gmail.com">
+                                        <p class="checkbox__para">不限時間</p>
+                                    </label>
+                                </div> 
+                            </label>
+                        </div>
+                    </div>
+                    <div class="pay-group">
+                        <div class="pay-titlebar">
+                            <div class="pay-titlebar__title">發票類型*</div>
+                        </div>
+                        <div class="label-group">
+                            <label for="Bill-1" class="label radio-group">
+                                <input id="Bill-1" type="radio" name="Bill" placeholder="王大明" class="label__radio">
+                                <p class="label__title">二聯發票</p>
+                            </label>
+                            <label for="Bill-2" class="label radio-group">
+                                <input id="Bill-2" type="radio" name="Bill" placeholder="0900111222" class="label__radio">
+                                <p class="label__title">手機條碼</p>  
+                            </label>
+                            <label for="Bill-2-1" class="label radio-group">
+                                <input id="Bill-2-1" type="text" name=Bill-2-1 placeholder="/ABC1234" class="label__text ml-28">
+                            </label>
+                            <label for="Bill-3" class="label radio-group">
+                                <input id="Bill-3" type="radio" name="Bill" placeholder="12345@gmail.com" class="label__radio">
+                                <p class="label__title">捐款發票</p>
+                            </label>
+                            <label for="Bill-3-1" class="label radio-group">
+                                <p class="label__title title1">捐款單位愛心碼</p>
+                                <input id="Bill-3-1" type="text" name=Bill-3-1 placeholder="3-7位數字" class="label__text">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="pay-group">
+                        <div class="pay-titlebar">
+                            <div class="pay-titlebar__title">付款方式*</div>
+                        </div>
+                        <div class="label-group">
+                            <label for="Pay-1" class="label radio-group">
+                                <input id="Pay-1" type="radio" name="Pay" placeholder="王大明" class="label__radio">
+                                <p class="label__title title2">ATM轉帳</p>
+                            </label>
+                            <label for="Pay-2" class="label radio-group">
+                                <input id="Pay-2" type="radio" name="Pay" placeholder="0900111222" class="label__radio">
+                                <p class="label__title titel2">LINE PAY</p>  
+                            </label>
+                            <label for="Pay-3" class="label radio-group">
+                                <input id="Pay-3" type="radio" name="Pay" placeholder="12345@gmail.com" class="label__radio">
+                                <p class="label__title title2">VISA, Master, JCB, 聯合信用卡</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="pay-group">
+                        <div class="pay-titlebar">
+                            <div class="pay-titlebar__title">備註</div>
+                        </div>
+                        <div class="label-group">
+                            <label for="Note" class="label textarea-group">
+                                <input id="Note" type="textarea" rows="3" cols="20" name="Note" placeholder="歡迎留言" class="">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <a href="ShoppingBasket.html" class="btn-sm bg-grey--light flex-row-center m-20">
+                            <i class="fa-solid fa-arrow-left fa-lg icon"></i>
+                            <p>上一步</p>
+                        </a>
+                        <a href="FinishPage.html" class="btn-sm bg-green--dark color-white flex-row-center m-20">
+                            <p>完成訂單</p>
+                        </a>
+                    </div>   
+                </div>
+                
+                
+                
+                <!-- End pay -->
+        
+            </div>
+        </main>
+        <!-- End main -->
+        
+        <!-- Start footer -->
+        <footer class="footer bg-grey--light">
+            <div class="footer-title">聯絡我們</div>
+            <div class="icon-group">
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-solid fa-envelope"></i>    
+                </a>               
+            </div>
+            <div class="footer-broder"></div>
+            <div class="footer-Copyright">Copyright © 2024 Tim</div>
+        </footer>
+        <!-- End footer -->    
+    </div>
+</body>
+</html>
