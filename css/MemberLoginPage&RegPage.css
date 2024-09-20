@@ -1,0 +1,105 @@
+.titlebar{
+    font-size: 32px;
+    padding: 32px 0px;
+    line-height: 36px; 
+}
+.titlebar .para{
+    font-size: 14px;
+    padding-top: 6px;
+    line-height: 36px; 
+}
+.subtitlebar{
+    font-size: 18px;
+    line-height: 34px;
+    padding-left: 8px; 
+    padding-right: 222px;
+}
+.subtitlebar-pr150{
+    padding-right: 150px;
+}
+.form-group{
+    margin-bottom: 12px;
+}
+.input-group{
+    padding: 8px 0px;
+    /* line-height: 36px; */
+}
+.input-group .flex-row-between{
+    width: 254px;
+}
+.input-group .input-item{
+    width: 221px;
+    padding-left:8px;
+    padding-right:0px ;
+
+    border: 1px solid rgb(75,93,106);
+    border-top-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px; 
+}
+.input-group .icon{
+    padding: 8px 8px;
+    border: 1px solid rgb(75,93,106) ;
+    border-right: 0px solid rgb(75,93,106);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0;
+}
+.input-group .input-item-lg{
+    height: 34px;
+    width: 254px;
+    padding-left:8px;
+    padding-right:0px ;
+    border-radius: 5px;
+    border: 1px solid rgb(75,93,106) ;
+}
+.input-group .input-item-m{
+    height: 34px;
+    width: 75px;
+    padding-left:8px;
+    padding-right:0px ;
+    border-radius: 5px;
+    border: 1px solid rgb(75,93,106) ;
+}
+.btn-group{
+    padding: 8px 0;
+}
+.helpbar{
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 600;
+    padding: 12px 0px 32px 0px;
+}
+.helpbar .broder-r-1{
+    border-right: 1px solid rgb(75,93,106);
+}
+.helpbar-link{
+    padding: 4px 32px;
+}
+.helpbar .btn-group{
+    margin-top: 10px;
+}
+.helpbar .para{
+    margin-top: 10px;
+}
+.outsideLogin{
+    padding: 36px;
+}
+.outsideLogin .icon {
+    padding-right:12px;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 600;
+}
+.outsideLogin .titlebar{
+    font-size: 24px;
+    padding: 0 ;
+    line-height: 36px; 
+}
+.terms-group .para{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bolder;
+}

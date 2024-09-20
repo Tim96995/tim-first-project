@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zw-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奇幻果園</title>
+    <link rel="stylesheet" href="./css/01-normalize/01-normalize.css">
+    <link rel="stylesheet" href="./css/02-vendor/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/MemberLoginPage&RegPage.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Start Header -->
+        <header class="header">
+            <div class="navbar">
+                <div class="container">
+                    <ul class="nav">
+                        <div class="nav-item">
+                            <input type="search" class="search">
+                        </div>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="MemberPage.html" class="nav-link">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="nav-link">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start main -->
+        <main>
+            <!-- Start logobar -->
+            <div class="container">
+                <div class="logobar">
+                        <a href="HomePage.html" class="logo">
+                            <i class="fa-brands fa-apple"></i>
+                        </a>
+                </div>
+            </div>
+            <!-- End logobar -->
+
+            <!-- Start menubar -->
+            <div class="container">
+                <div class="menubar">
+                    <div class="flex-row-center">
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>蔬菜多多</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>水果多多</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>今天來點</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>季節特產</u></div>
+                            </a>
+                        </div>
+                        <div class="flex-col col">
+                            <a href="#!" class="menu-item ">
+                                <div class="menu-link"><u>特價專區</u></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End menubar -->
+
+            
+            <div class="container container-dashed">
+                <h2 class="titlebar flex-row-a-c-center">
+                    <div class="titlebar__title flex-col color-green--dark">最後一步</div>
+                    <div class="para">輸入您的個人資料，順利完成註冊流程!</div>
+                </h2>
+                <div class="form-group">
+                    <label for="M-name">
+                        <div class="subtitlebar flex-row-center">
+                            <h4 class="subtitle">姓名</h4>
+                        </div>
+                        <div class="input-group flex-row-center">  
+                            <input type="text" id="M-name" placeholder="李大明 " name="M-name" class="input-item-lg flex-col">
+                        </div>
+                    </label>     
+                </div>
+                <div class="form-group">
+                    <label for="M-gender">
+                        <div class="subtitlebar flex-row-center">
+                            <h4 class="subtitle">姓別</h4>
+                        </div>
+                        <div class="input-group flex-row-center">
+                            <select id="M-gender" name="M-gender" class="input-item-lg">
+                                <option value="0">男</option>
+                                <option value="1">女</option>
+                                <option value="2">不便透漏</option>
+                                <option value="3">非二元性別</option>
+                            </select>
+                        </div>
+                    </label>     
+                </div>
+                <div class="form-group">
+                    <label for="M-birthday">
+                        <div class="subtitlebar flex-row-center">
+                            <h4 class="subtitle">生日</h4>
+                        </div>
+                        <div class="input-group flex-row-center">
+                            <select id="M-birthday" name="M-birthday" class="input-item-m">
+                                <option value="0">年</option>
+                                <option value="1">2000</option>
+                                <option value="2">2001</option>
+                                <option value="3">2003</option>
+                                <option value="3">接後端</option>
+                            </select>
+                            <select id="M-birthday-month" name="M-birthday-month" class="input-item-m mrl-14">
+                                <option value="0">月</option>
+                                <option value="1">01月</option>
+                                <option value="2">02月</option>
+                                <option value="3">03月</option>
+                                <option value="4">04月</option>
+                                <option value="5">05月</option>
+                                <option value="6">06月</option>
+                                <option value="7">07月</option>
+                                <option value="8">08月</option>
+                                <option value="9">09月</option>
+                                <option value="10">10月</option>
+                                <option value="11">11月</option>
+                                <option value="12">12月</option>
+                            </select>
+                            <select id="M-birthday-day" name="M-birthday-day" class="input-item-m">
+                                <option value="0">日</option>
+                                <option value="1">01日</option>
+                                <option value="2">02日</option>
+                                <option value="3">03日</option>
+                                <option value="4">接後端</option>
+                            </select>
+                        </div> 
+                    </label>     
+                </div>
+                <div class="form-group">
+                    <label for="M-account">
+                        <div class="subtitlebar flex-row-center">
+                            <h4 class="subtitle">帳號</h4>
+                        </div>
+                        <div class="input-group flex-row-center">  
+                            <input type="text" id="M-account" placeholder="6-12混合英文數字 " name="M-account" class="input-item-lg flex-col">
+                        </div>
+                    </label>     
+                </div>
+                <div class="form-group">
+                    <label for="M-password">
+                        <div class="subtitlebar flex-row-center">
+                            <h4 class="subtitle">密碼</h4>
+                        </div>
+                        <div class="input-group flex-row-center">  
+                            <input type="password" id="M-password" placeholder="6-12混合英文數字 " name="M-password" class="input-item-lg flex-col">
+                        </div>
+                    </label>     
+                </div>
+                <div class="form-group">
+                    <label for="M-password-check">
+                        <div class="subtitlebar subtitlebar-pr150 flex-row-center">
+                            <h4 class="subtitle">再次確認密碼</h4>
+                        </div>
+                        <div class="input-group flex-row-center">  
+                            <input type="password" id="M-password-check" placeholder="6-12混合英文數字 " name="M-password-check" class="input-item-lg flex-col">
+                        </div>
+                    </label>     
+                </div>
+                               
+                <div class="btn-group">
+                    <a href="#!" class="btn-xl bg-green--dark color-white flex-row-center">
+                        <p>立即加入</p>
+                    </a>
+                </div>
+
+                <!-- Stark Terms -->
+                <div class="flex-row-center">
+                    <div class="terms-group">
+                        <div class="para">
+                            註冊表示同意網站<a href="TermsPage.html" target="_blank" class="color-blue"><u>服務條款</u></a>及<a href="PrivacyPage.html" target="_blank" class="color-blue"><u>隱私權政策</u></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Terms -->
+
+
+                <!-- Start helpbar -->
+                <div class="helpbar flex-row-a-c-center">
+                    <div class="flex-col ">
+                        <a href="RegPage1.html">
+                            <h4 class="para color-grey--dark"><b>回上一步</b></h4>
+                        </a>
+                    </div>
+                    <div class="flex-col">
+                        <h4 class="para "><b>已有帳號?</b></h4>
+                    </div>
+                    <div class="flex-col">
+                        <div class="btn-group">
+                            <a href="MemberPage.html" class="btn-m bg-grey--dark color-white flex-row-center">
+                                <i class="fa-regular fa-circle-user icon"></i>
+                                <p>立即登入</p>
+                            </a>    
+                        </div>
+                    </div>
+                </div> 
+                <!-- End helpbar -->
+
+            </div>
+        </main>
+        <!-- End main -->
+        
+        <!-- Start footer -->
+        <footer class="footer bg-grey--light">
+            <div class="footer-title">聯絡我們</div>
+            <div class="icon-group">
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#!" class="icon">
+                    <i class="fa-solid fa-envelope"></i>    
+                </a>               
+            </div>
+            <div class="footer-broder"></div>
+            <div class="footer-Copyright">Copyright © 2024 Tim</div>
+        </footer>
+        <!-- End footer -->    
+    </div>
+</body>
+</html>

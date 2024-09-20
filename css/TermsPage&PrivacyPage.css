@@ -1,0 +1,36 @@
+.titlebar{
+    font-size: 32px;
+    padding: 32px 0px;
+    line-height: 36px; 
+}
+.subtitlebar{
+    font-size: 20px;
+    padding: 20px;
+}
+.terms-select{
+    padding: 20px;
+    font-weight: bolder;
+}
+.terms-select__title{
+    font-size: 24px;
+    line-height: 36px;
+    padding: 12px 0;
+    color: rgb(122, 109, 222);
+}
+.terms-select__subtitle{
+    padding: 5px 0px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    /* 凸排 */
+    margin-left : 0.9em;
+    text-indent : -0.9em ;
+}
+.ml-1-5{
+    margin-left: 1.5em;
+}
+.raised-none{
+    margin-left : 0em;
+    text-indent : 0em ;
+}

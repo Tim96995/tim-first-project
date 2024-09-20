@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/01-normalize/01-normalize.css">
     <link rel="stylesheet" href="./css/02-vendor/fontawesome-free-6.6.0-web/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/FinishPage&NoPage.css">
+    <link rel="stylesheet" href="./css/MemberPage.css">
 </head>
 <body>
     <div class="wrapper">
@@ -25,7 +25,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="MemberLoginPage.html" class="nav-link">
+                            <a href="MemberPage.html" class="nav-link">
                                 <i class="fa-solid fa-user"></i>
                             </a>
                         </li>
@@ -89,30 +89,61 @@
 
             
             <div class="container container-dashed">
-                <div class="bigIcongroup flex-row-center">
-                    <div class="flex-col color-green--dark">
-                        <i class="fa-regular fa-circle-check icon"></i>
+                <!-- Start pay -->
+                <div class="pay">
+                    <div class="pay-group pb-100">
+                        <a href="MemberPage.html" class="inline-block mr-14">
+                            <div class="pay-titlebar">
+                                <div class="pay-titlebar__title bg-grey--light">會員資訊</div>
+                            </div>
+                        </a>
+                        <a href="OrderPage.html" class="inline-block mr-14">
+                            <div class="pay-titlebar">
+                                <div class="pay-titlebar__title ">訂單紀錄</div>
+                            </div>
+                        </a>
+                        <div class="label-group">
+                            <div class="label">
+                                <p class="label__title">訂單號碼</p>
+                                <div class="label__item broder-none">A3333333</div>
+                            </div>
+                            <div class="label">
+                                <p class="label__title">訂單日期</p>
+                                <div class="label__item broder-none">2024/01/01</div>
+                            </div>
+                            <div class="label">
+                                <p class="label__title">訂單金額</p>
+                                <div class="label__item broder-none">720</div>
+                            </div>
+                            <div class="label">
+                                <p class="label__title">訂單狀態</p>
+                                <div class="label__item broder-none">已完成2024/01/03</div>
+                            </div>
+                            <div class="label">
+                                <p class="label__title">商品明細</p>
+                                <div class="btn-group p-none">
+                                    <a href="OrderProductPage.html" target="_blank" class="btn-xs bg-green--dark color-white flex-row-center">
+                                        <p>查閱</p>
+                                    </a>
+                                </div>  
+                            </div>
+                            <div class="label pb-25">
+                                <p class="label__title">訂單詳情</p>
+                                <div class="btn-group p-none">
+                                    <a href="OrderDetailsPage.html" target="_blank" class="btn-xs bg-green--dark color-white flex-row-center">
+                                        <p>查閱</p>
+                                    </a>
+                                </div>  
+                            </div>                    
+                        </div>
                     </div>
                 </div>
-                <h2 class="titlebar flex-row-center">
-                    <div class="titlebar__title color-green--dark">完成訂單</div>
-                </h2>
-                <h5 class="subtitlebar flex-row-center">
-                    <div class="subtitle">訂單資訊詳情可至會員專區查詢</div>
-                </h5>
-
-                <!-- Start outsideLogin -->
-                <div class="btn-group">
-                    <a href="MemberPage.html" class="btn-m bg-green--light2 color-white flex-row-center m-12">
-                        <i class="fa-solid fa-user icon"></i>
-                        <p>會員專區</p>
-                    </a>
-                    <a href="ProductPage.html" class="btn-m bg-red color-white flex-row-center m-12">
-                        <i class="fa-solid fa-basket-shopping icon"></i>
-                        <p>繼續購物</p>
-                    </a>
-                </div>
-                <!-- End outsideLogin -->
+                
+                
+                
+                
+                <!-- End pay -->
+        
             </div>
         </main>
         <!-- End main -->
